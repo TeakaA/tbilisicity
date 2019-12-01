@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Noto Sans Georgian Med';
+    src: url('NotoSansGeorgian-Medium.eot');
+    src: url('NotoSansGeorgian-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansGeorgian-Medium.woff2') format('woff2'),
+        url('NotoSansGeorgian-Medium.woff') format('woff'),
+        url('NotoSansGeorgian-Medium.ttf') format('truetype'),
+        url('NotoSansGeorgian-Medium.svg#NotoSansGeorgian-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Georgian';
+    src: url('NotoSansGeorgian-Regular.eot');
+    src: url('NotoSansGeorgian-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansGeorgian-Regular.woff2') format('woff2'),
+        url('NotoSansGeorgian-Regular.woff') format('woff'),
+        url('NotoSansGeorgian-Regular.ttf') format('truetype'),
+        url('NotoSansGeorgian-Regular.svg#NotoSansGeorgian-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto Sans Med';
+    src: url('NotoSans-Medium.eot');
+    src: url('NotoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NotoSans-Medium.woff2') format('woff2'),
+        url('NotoSans-Medium.woff') format('woff'),
+        url('NotoSans-Medium.ttf') format('truetype'),
+        url('NotoSans-Medium.svg#NotoSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
