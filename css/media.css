@@ -1,0 +1,14 @@
+@media (max-width:1600px){
+    .product-descr .ttl{
+        font-size: 45px;
+    }
+    .product-head{
+        margin-bottom: 0px;
+    }
+    .gallery-slider{
+        height: 350px;
+    }
+    .gallery-container{
+        padding-top: 50px;
+    }
+}

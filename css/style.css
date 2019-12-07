@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    padding-bottom: 100vh;
+    
 }
 ol, ul {
 	list-style: none;
@@ -350,4 +350,43 @@ footer img{
     padding: 10px 0px;
     font-family: 'Noto Sans Med';
     border-bottom: 1px solid #fff;
+}
+.product{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    padding-top: 25%;
+    position: relative;
+}
+
+.product img{
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-descr{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.25);
+    transition: 1s;
+    opacity: 0;
+}
+.product:hover .product-descr{
+    opacity: 1;
+}
+.product-descr .ttl{
+    font-size: 55px;
+    color: #fff;
+    font-family: 'Noto Sans Med';
 }
