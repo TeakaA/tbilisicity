@@ -6,7 +6,7 @@
     <meta name="author" content="SitePoint">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="fonts/fonts.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css?v=1.0">
     <link rel="stylesheet" href="css/media.css?v=1.0">
 
@@ -74,11 +74,93 @@
         </div>
     </div>
 </header>
-
+<div class="main-container">
+    <div class="container-inner">
+        <div class="product-head">
+            <img src="img/maincafe.jpg" alt="cafe">
+            <h1>L'Eclair de Génie</h1>
+        </div>
+    </div>
+</div>
+<div class="main-container">
+        <div class="container-inner">
+            <div class="container-menu">
+                <h3>Menu</h3>
+                <img src="img/cafe/menu.png" alt="menu">
+                <img src="img/cafe/menu1.png" alt="menu">
+                
+            </div>
+        </div>
+    </div>
+<div class="gallery-container">
+    <h3>Gallery</h3>
+    <div class="swiper-container gallery-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide gallery-item">
+                <img src="img/cafe/img1.jpg" alt="cafe">
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="img/cafe/img2.jpg" alt="cafe">
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="img/cafe/img3.jpg" alt="cafe">
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="img/cafe/img4.jpg" alt="cafe">
+            </div>
+            <div class="swiper-slide gallery-item">
+                <img src="img/cafe/img5.jpg" alt="cafe">
+            </div>
+        </div>
+        
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+       
+    </div>
+</div>
+<div class="contact-container">
+    <div class="map">
+        <img src="img/cafe/map.jpg" alt="map">
+    </div>
+    <div class="contact-description">
+        <div class="description-inner">
+            <div class="product-logo"> <img src="img/cafe/prlogo.png" alt="logo"></div>
+            <div class="descr">
+                   Address : #12 Otar Taktakishvili
+                    0179 Tbilisi, Georgia
+            </div>
+            <div class="descr">
+                Opening Hours : 12:30 PM - 11:30 PM;
+            </div>
+            <div class="descr">
+                Mob:
+                    +995551991155
+            </div>
+            
+        </div>
+    </div>
+</div>
 
 <footer>
     <img src="img/citrus.png" alt="citrus">
 </footer>
-
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.gallery-slider', {
+      slidesPerView: 2.5,
+      spaceBetween: 30,
+      centeredSlides: true,
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+    
+    });
+  </script>
 </body>
 </html>
