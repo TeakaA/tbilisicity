@@ -109,8 +109,49 @@
 .container-inner a{
     margin-right: 15px;
 }
+.product-head{
+    height: 260px;
+    width: 580px;
+}
 .product-descr .ttl{
     font-size: 22px;
 }
+.product-head img {
+    height: 50%;
+    width: 57%;
 
+}
+.product-head h1{
+    font-size: 23px;
+}
+.menu{
+    display: flex;
+}
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-menu img{
+    width: 300px;
+    margin-bottom: 15px;
+}
+.gallery-container h3{
+    font-size: 25px;
+}
+.gallery-slider{
+    height: 180px;
+    margin-top: 30px;
+}
+.contact-container{
+    display: flex;
+    flex-direction:column-reverse;
+}
+.contact-description{
+    width: 100%;
+}
+.map{
+    width: 100%;
+}
 }
