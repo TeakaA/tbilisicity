@@ -1,4 +1,7 @@
 @media (max-width:1600px){
+    body{
+        overflow: hidden;
+    }
     .product-descr .ttl{
         font-size: 45px;
     }
