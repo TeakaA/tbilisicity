@@ -17,6 +17,18 @@
     .main-photo {
         height: 50vh;
     }
+    .bar-inner{
+        flex-direction: column;
+    }
+    @keyframes barPhoto1{
+        0%   {top: 0px;}
+        25%  {top: 200px;}
+         75%  {top: 50px}
+        100% {top: 100px;}
+    }
+    .bar{
+        width: 100%;
+    }
 }
 @media (max-width:768px){
     .item-photo{
