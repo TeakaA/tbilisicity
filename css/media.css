@@ -95,6 +95,9 @@
     line-height: 27px;
     padding: 4px 0px;
 }
+.product-bar img{
+    height: 80%;
+}
 
 }
 @media (max-width:375px){
@@ -199,5 +202,9 @@
 }
 .bar-logo img{
     width: 100%;
+    
+}
+.product-bar img{
+    margin-top: 0px;
 }
 }
