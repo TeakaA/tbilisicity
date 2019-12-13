@@ -356,11 +356,12 @@ footer img{
     border-bottom: 1px solid #fff;
 }
 .product{
-    width: 25%;
+    width: 30%;
     /* display: inline-block; */
     float: left;
     padding-top: 25%;
     position: relative;
+    margin:15px;
 }
 
 .product img{
@@ -371,6 +372,7 @@ footer img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 8px;
 }
 .product-descr{
     position: absolute;
