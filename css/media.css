@@ -12,6 +12,9 @@
     .gallery-container{
         padding-top: 50px;
     }
+    .barPhoto,.barPhoto2,.barPhoto1{
+        height: 40%;
+    }
 }
 @media (max-width:1024px){
     .main-photo {
@@ -23,23 +26,22 @@
     .product{
         width: 45%;
     }
-    @keyframes barPhoto2{
-        0%   {top: 0px;  width: 100px;}
-        100% {top: 200px;  width: 500px;}
-    }
     
-    @keyframes barPhoto{
-        0%   {top: 0px;  width: 100px;}
-        100% {top: 200px;  width: 500px;}
-    }
     .bar{
         width: 100%;
         padding-top:40%;
         margin-bottom: 20px;
     }
+    @keyframes barPhoto1{
+        0%   {top: 0px;}
+        25%  {top: 200px;}
+        75%  {top: 50px}
+        100% {top: 100px;}
+    }
     .barPhoto,.barPhoto2,.barPhoto1{
-        width: 100%;
+        width: 45%;
         height: 100%;
+        left: 25%;
         
        
     }
@@ -207,4 +209,12 @@
 .product-bar img{
     margin-top: 0px;
 }
+.bar{
+   padding-top: 80%;
+}
+.barPhoto, .barPhoto2, .barPhoto1 {
+    width: 90%;
+    height: 100%;
+    border-radius: 200px;
+    left: 4%;
 }

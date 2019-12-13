@@ -403,11 +403,11 @@ footer img{
     width: 100%;
     text-align: center;
     display: inline-block;
-    /* margin-top: 50px; */
-    /* background-color: #8b7e51; */
-    background-image:url(../img/bar/bgbar.jpg);
+    
+    background-color: #e8e9eb;
+    /* background-image:url(../img/bar/bgbar.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .bar-inner{
     display: flex;
