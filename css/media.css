@@ -43,7 +43,17 @@
         
        
     }
-    
+    .bar-logo img{
+        width: 100%;
+
+    }
+    .gallery-slider {
+        height: 260px;
+        width: 95%;
+    }
+    .swiper-bar img {
+        height: 315px;
+    }
 }
 @media (max-width:768px){
     .item-photo{
@@ -171,7 +181,7 @@
     font-size: 25px;
 }
 .gallery-slider{
-    height: 180px;
+    height: 160px;
     margin-top: 30px;
 }
 .contact-container{
@@ -182,6 +192,12 @@
     width: 100%;
 }
 .map{
+    width: 100%;
+}
+.swiper-bar img {
+    height: 160px
+}
+.bar-logo img{
     width: 100%;
 }
 }
