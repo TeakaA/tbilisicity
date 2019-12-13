@@ -100,6 +100,10 @@
 .product-bar img{
     height: 80%;
 }
+.bar{
+    padding-top: 45%;
+    left: 7%;
+}
 
 }
 @media (max-width:375px){
@@ -211,10 +215,12 @@
 }
 .bar{
    padding-top: 80%;
+   margin-bottom: 50px;
 }
 .barPhoto, .barPhoto2, .barPhoto1 {
     width: 90%;
     height: 100%;
     border-radius: 200px;
     left: 4%;
+}
 }
