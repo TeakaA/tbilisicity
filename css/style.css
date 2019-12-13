@@ -403,8 +403,6 @@ footer img{
     width: 100%;
     text-align: center;
     display: inline-block;
-    
-    /* background-color: #e8e9eb; */
     background-image:url(../img/bar/bgbar.jpg);
     background-size: cover;
     background-repeat: no-repeat;
