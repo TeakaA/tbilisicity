@@ -152,7 +152,8 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
     text-align: center;
     display: inline-block;
     margin-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+
 }
 .container-inner{
     max-width: 1920px;
