@@ -393,9 +393,10 @@ footer img{
     opacity: 1;
 }
 .product-descr .ttl{
-    font-size: 55px;
+    font-size: 50px;
     color: #fff;
     font-family: 'Noto Sans Med';
+    padding: 10px;
 }
  /* B A R */
 
