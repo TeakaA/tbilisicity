@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 @media (max-width:1600px){
     
     .product-descr .ttl{
@@ -21,7 +23,10 @@
         height: 50vh;
     }
     .bar-inner{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .product{
         width: 45%;
@@ -33,16 +38,34 @@
         margin-bottom: 20px;
         left: 12%;
     }
+    @-webkit-keyframes barPhoto{
+        0%   {left: 0px;}
+        25%  {left: 200px;}
+        75%  {left: 50px}
+        100% {left: 100px;}
+    }
     @keyframes barPhoto{
         0%   {left: 0px;}
         25%  {left: 200px;}
         75%  {left: 50px}
         100% {left: 100px;}
     }
+    @-webkit-keyframes barPhoto1{
+        0%   {left: 0px;}
+        25%  {left: 200px;}
+        75%  {left: 50px;}
+        100% {left: 100px;}
+    }
     @keyframes barPhoto1{
         0%   {left: 0px;}
         25%  {left: 200px;}
         75%  {left: 50px;}
+        100% {left: 100px;}
+    }
+    @-webkit-keyframes barPhoto2{
+        0%   {left: 0px;}
+        25%  {left: 200px;}
+        75%  {left: 50px}
         100% {left: 100px;}
     }
     @keyframes barPhoto2{
@@ -147,8 +170,11 @@
     .main-container {
         width: 100%;
         margin-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
 }
 .item-box h2 {
     font-size: 30px;
@@ -188,13 +214,24 @@
     font-size: 23px;
 }
 .menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .container-menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .container-menu img{
     width: 300px;
@@ -208,8 +245,13 @@
     margin-top: 30px;
 }
 .contact-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction:column-reverse;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:reverse;
+        -ms-flex-direction:column-reverse;
+            flex-direction:column-reverse;
 }
 .contact-description{
     width: 100%;
